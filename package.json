@@ -1,5 +1,5 @@
 {
-  "name": "test-aut-api-demoblaze",
+  "name": "Auto-api-demoblaze",
   "version": "1.0.0",
   "description": "API testing demoblaze - cypress",
   "main": "index.js",
