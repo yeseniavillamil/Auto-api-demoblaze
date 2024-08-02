@@ -9,8 +9,7 @@ refleja los scripts de pruebas automatizadas sobre diferentes servicios API para
 
 ## 📚 Tabla de contenido: 
 1. [Arquitectura](#arquitectura)
-   1. [Patron de Diseño](#patron_diseno)
-   2. [Estructura de Proyecto](#arquitectura_estructura_proyecto)
+   1. [Estructura de Proyecto](#arquitectura_estructura_proyecto)
 2. [Tecnologias / Herramientas](#tecnologias_herramientas)
 3. [Pre-requisitos](#pre_requisitos) 
 4. [Instalación](#instalacion) 
@@ -26,25 +25,6 @@ refleja los scripts de pruebas automatizadas sobre diferentes servicios API para
 
 <br>
 
-<div id='arquitectura_diagrama_conceptual'/>
-
-<div id='patron_diseno'/>
-
-### Patron de Diseño [📚](#menu)
-**Screenplay**
-
-![Diagrama Conceptual](images/readme/screenplay_pattern.png)
-
-
->"Screenplay es un patrón de diseño de automatización de prueba moderno que 
-pretende facilitar la escritura de código de prueba escalable y mantenible 
-(segun los principios SOLID)
-> > En Screenplay modelamos actores que interactúan con una aplicación de varias maneras 
-para realizar tareas que les ayuden a lograr sus objetivos. Los actores tienen 
-habilidades , como la capacidad de interactuar con un navegador web o consultar una 
-base de datos, que los ayudan a realizar estas tareas. Los actores también pueden 
-responder preguntas sobre el estado del sistema, de modo que podamos verificar si 
-una función se está comportando de la manera que esperamos"
 
 
 <div id='arquitectura_estructura_proyecto'/>
