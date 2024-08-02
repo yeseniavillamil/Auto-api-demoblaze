@@ -1,0 +1,39 @@
+Conclusiones del Escenario de Prueba Automatizado
+Ejecución y Resultados:
+
+Servicios API: Se probaron los servicios de registro (signup) y acceso (login) en el portal Demoblaze.
+Registro (signup):
+Crear cuenta exitosamente.
+Crear cuenta ya existente.
+Acceso (login):
+Acceder exitosamente.
+Acceso con credenciales incorrectas.
+Evidencias Detalladas: Disponibles en el runner de Cypress.
+Observaciones Técnicas:
+Uso de cuentas aleatorias para evitar reutilización.
+Recuperación y análisis de detalles de API mediante dev tools (endpoints, métodos, headers, body).
+Envío de contraseña codificada en base64.
+Resultados: Todos los casos pasaron según las aserciones esperadas.
+Pendientes (To Do):
+
+Proponer un informe portable para compartir resultados fuera del equipo de pruebas.
+Ampliar conjunto de datos de prueba, utilizando fixtures de Cypress para datos organizados en .json, .csv, .xlsx.
+Implementar pruebas E2E para validar la secuencia completa de registro y login.
+Hallazgos de Pruebas Exploratorias con Postman
+Seguridad de Contraseñas:
+Las contraseñas codificadas en base64 son vulnerables a ataques Man-In-the-Middle.
+Recomendar el uso de cifrado más seguro (llave pública/privada).
+Códigos de Estado:
+Las APIs devuelven código 200 con mensajes de error, lo cual puede dificultar integraciones futuras.
+Información Excesiva:
+Las respuestas de las APIs revelan información innecesaria, exponiendo datos de usuarios.
+Conclusiones de la Prueba Técnica
+Cypress vs. Karate:
+
+No hay una herramienta mejor que otra; la elección debe basarse en el contexto.
+Elección: Se eligió Cypress por experiencia previa en JavaScript y automatización Web E2E.
+Experiencia Adicional:
+
+Familiaridad con API testing usando Rest-Assured y Serenity-BDD.
+Interés en explorar Karate para expandir habilidades.
+En resumen, la prueba automatizada en Cypress demostró ser efectiva para evaluar servicios API en Demoblaze, con observaciones sobre mejoras en seguridad y estándares de respuesta. La elección de Cypress se basó en experiencia previa y adaptabilidad al contexto.

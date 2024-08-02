@@ -1,0 +1,24 @@
+{
+  "name": "test-aut-api-demoblaze",
+  "version": "1.0.0",
+  "description": "API testing demoblaze - cypress",
+  "main": "index.js",
+  "scripts": {
+    "cy:runner": "cypress open"
+  },
+  "keywords": [
+    "api",
+    "automation",
+    "demoblaze",
+    "cypress"
+  ],
+  "author": "YeseniaVillamil",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^12.17.3",
+    "cypress-mochawesome-reporter": "^3.5.1"
+  }
+
+
+
+}
